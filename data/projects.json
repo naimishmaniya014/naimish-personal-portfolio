@@ -1,0 +1,175 @@
+[
+  {
+    "title": "Personal Portfolio",
+    "tagline": "A personal portfolio site to showcase my projects, skills, and experience.",
+    "year": 2025,
+    "badges": [
+      "Next.js",
+      "Typescript",
+      "Javascript",
+      "Tailwind CSS",
+      "React",
+      "Vercel"
+    ],
+    "github_url": "https://github.com/naimishmaniya014/",
+    "demo_url": "",
+    "stars": 0,
+    "priority": 6,
+    "category": "Web Project"
+  },
+  {
+    "title": "Visualizing Fabric of Ohio City",
+    "tagline": "A Data-visulization project to highlight volunteer's characteristics, social activities, and predominant business base.",
+    "year": 2024,
+    "badges": [
+      "D3",
+      "Javascript",
+      "Material UI",
+      "React",
+      "Flask",
+      "Azure",
+      "Postgre"
+    ],
+    "github_url": "https://github.com/naimishmaniya014/Visualizing-Fabric-Of-Ohio-City/tree/master",
+    "demo_url": "",
+    "stars": 0,
+    "priority": 6,
+    "category": "Web Project"
+  },
+  {
+    "title": "Programming Language Compiler",
+    "tagline": "C++ compiler for a custom polynomial language with CFG parsing, semantic analysis, and custom interpreter execution.",
+    "year": 2025,
+    "badges": [
+      "C++",
+      "CFG",
+      "Lexical Analysis"
+    ],
+    "github_url": "https://github.com/naimishmaniya014/",
+    "demo_url": "",
+    "stars": 0,
+    "priority": 5,
+    "category": "Web Project"
+  },
+  {
+    "title": "Operating Systems Development",
+    "tagline": "Custom C-based Linux kernel with faster boot, multi-threading, and improved user-kernel communication.",
+    "year": 2024,
+    "badges": ["C", "Linux"],
+    "github_url": "https://github.com/naimishmaniya014/",
+    "demo_url": "",
+    "stars": 0,
+    "priority": 5,
+    "category": "Web Project"
+  },
+  {
+    "title": "Sorting Algorithm Visualizer",
+    "tagline": "Interactive sorting algorithm visualizer with real-time performance and complexity insights.",
+    "year": 2023,
+    "badges": ["React", "Vite", "Tailwind CSS", "JavaScript", "Vercel"],
+    "github_url": "https://github.com/naimishmaniya014/Sorting-Algorithm-Visualizer",
+    "demo_url": "https://sorting-algorithm-visualizer-tan.vercel.app/",
+    "stars": 0,
+    "priority": 4,
+    "category": "Web Project"
+  },
+  {
+    "title": "News Aggregator - Tagged News",
+    "tagline": "Real-time news discussion platform with voting, comments, and threaded replies.",
+    "year": 2023,
+    "badges": ["Python", "HTML", "Tailwind CSS", "Material UI"],
+    "github_url": "https://github.com/naimishmaniya014/Project-News-Aggregator-Tagged-News",
+    "demo_url": "",
+    "stars": 0,
+    "priority": 3,
+    "category": "Web Project"
+  },
+  {
+    "title": "Ask-An-APL: AI-Powered Bot for Agile Support",
+    "tagline": "AI-powered Flask bot using GPT-4 and RAG to automate Agile team FAQs, reducing support overhead.",
+    "year": 2025,
+    "badges": ["Python", "Flask", "LangChain", "RAG", "GPT-4"],
+    "github_url": "https://t4.ftcdn.net/jpg/02/91/77/83/360_F_291778396_3Xzds9IcpqLsRMycGZhBFmev8F3R1YUv.jpg",
+    "demo_url": "https://t4.ftcdn.net/jpg/02/91/77/83/360_F_291778396_3Xzds9IcpqLsRMycGZhBFmev8F3R1YUv.jpg",
+    "stars": 0,
+    "priority": 6,
+    "category": "Web Project"
+  },
+  {
+    "title": "The Space Forest",
+    "tagline": "An interactive web app showcasing celestial bodies, astronomical events, and stargazing tips with a modern, responsive UI.",
+    "year": 2025,
+    "badges": ["React", "Vite", "Tailwind CSS", "JavaScript", "Vercel"],
+    "github_url": "https://github.com/naimishmaniya014/",
+    "demo_url": "",
+    "stars": 0,
+    "priority": 4,
+    "category": "Web Project"
+  },
+  {
+    "title": "Help System",
+    "tagline": "Secure JavaFX help system with role-based access, personalized search, admin tools, and encryption",
+    "year": 2024,
+    "badges": ["Java", "JavaFX"],
+    "github_url": "https://github.com/naimishmaniya014/",
+    "demo_url": "",
+    "stars": 0,
+    "priority": 2,
+    "category": "Web Project"
+  },
+  {
+    "title": "Full-Stack Cybersecurity Fundamentals | pwn.college",
+    "tagline": "Cybersecurity course with hands-on exploitation and prevention labs, from CPU and kernel to web and cryptography.",
+    "year": 2024,
+    "badges": ["Linux", "C", "JavaScript", "Python", "Assembly"],
+    "github_url": "https://pwn.college/",
+    "demo_url": "https://pwn.college/",
+    "stars": 0,
+    "priority": 3,
+    "category": "Web Project"
+  },
+  {
+    "title": "E-Commerce UX Redesign",
+    "tagline": "Redesigned an e-commerce site using usability heuristics, user-centered design, and A/B testing for measurable improvements.",
+    "year": 2025,
+    "badges": ["Figma", "UI/UX", "A/B Testing"],
+    "github_url": "https://github.com/naimishmaniya014/",
+    "demo_url": "",
+    "stars": 0,
+    "priority": 2,
+    "category": "Web Project"
+  },
+  {
+    "title": "Project SPYN",
+    "tagline": "MATLAB-based automated maze vehicle with optimized routing and navigation.",
+    "year": 2022,
+    "badges": ["MATLAB"],
+    "github_url": "https://github.com/naimishmaniya014/",
+    "demo_url": "",
+    "stars": 0,
+    "priority": 1,
+    "category": "Web Project"
+  },
+  {
+    "title": "Grammys Web Analytics Project",
+    "tagline": "Analyzed Grammy and Recording Academy web traffic to evaluate site split impact, audience trends, and engagement KPIs",
+    "year": 2024,
+    "badges": ["Python", "Pandas", "Plotly"],
+    "github_url": "https://github.com/naimishmaniya014/",
+    "demo_url": "",
+    "stars": 0,
+    "priority": 0,
+    "category": "Web Project"
+  },
+  {
+    "title": "Intel Data Center Location Analysis",
+    "tagline": "Used SQL and Tableau to find optimal data center location based on renewable energy and production trends.",
+    "year": 2024,
+    "badges": ["Postgre", "Tableau"],
+    "github_url": "https://github.com/naimishmaniya014/",
+    "demo_url": "",
+    "stars": 0,
+    "priority": 0,
+    "category": "Web Project"
+  }
+]

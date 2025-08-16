@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+     width="1080" height="1080" viewBox="0 0 1080 1080" role="img" aria-labelledby="title desc">
+  <title>R2-style bot icon</title>
+  <desc>Minimal, geometric droid with dome head, central body, and two side legs; designed as a flat, white icon.</desc>
+
+  <!-- colors -->
+  <defs>
+    <style>
+      :root{
+        --ink:#FFFFFF;     /* main icon color */
+        --accent:#9AD3FF;  /* subtle panels/sensor (optional) */
+      }
+    </style>
+  </defs>
+
+  <!-- center + scale to match your TARS file look -->
+  <g transform="translate(540,540) scale(14.6)">
+
+    <!-- SIDE LEGS -->
+    <g fill="var(--ink)">
+      <!-- left leg -->
+      <path d="M-28 12 v34 h8 v-22 h8 v-12 h-16 z"/>
+      <!-- right leg -->
+      <path d="M28 12 v34 h-8 v-22 h-8 v-12 h16 z"/>
+    </g>
+
+    <!-- BODY -->
+    <g>
+      <!-- main body canister -->
+      <rect x="-18" y="4" width="36" height="46" rx="2" ry="2" fill="none" stroke="var(--ink)" stroke-width="3"/>
+
+      <!-- front panels -->
+      <rect x="-13" y="10" width="26" height="10" fill="none" stroke="var(--ink)" stroke-width="2"/>
+      <rect x="-13" y="24" width="26" height="12" fill="none" stroke="var(--ink)" stroke-width="2"/>
+      <rect x="-13" y="40" width="26" height="6"  fill="none" stroke="var(--ink)" stroke-width="2"/>
+    </g>
+
+    <!-- DOME HEAD -->
+    <!-- dome outline -->
+    <path d="M-22 4 a22 22 0 0 1 44 0" fill="none" stroke="var(--ink)" stroke-width="3"/>
+
+    <!-- dome band -->
+    <path d="M-20 4 a20 20 0 0 1 40 0" fill="none" stroke="var(--ink)" stroke-width="2"/>
+
+    <!-- central 'eye' sensor -->
+    <circle cx="0" cy="-6" r="3.5" fill="var(--ink)"/>
+    <!-- small accent sensor (optional color) -->
+    <circle cx="10" cy="-3" r="2.2" fill="var(--accent)"/>
+
+    <!-- feet -->
+    <g fill="var(--ink)">
+      <rect x="-32" y="46" width="12" height="4" rx="1"/>
+      <rect x="20"  y="46" width="12" height="4" rx="1"/>
+      <rect x="-6"  y="50" width="12" height="4" rx="1"/>
+    </g>
+
+  </g>
+</svg>
