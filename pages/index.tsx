@@ -126,25 +126,27 @@ const Home: NextPage = () => {
   };
 
   const educationList = [
-  {
-    dateRange: "Aug '22 - May '26",
-    logo: asuLogo,
-    logoAlt: "Arizona State University Logo",
-    duration: "4 years",
-    title: "B.S. Computer Science at",
-    company: "Arizona State University",
-    description: "Focus on Software Engineering and subjects like Operating Systems, Principles of Programming Languages, Data Structures & Algorithms, Object-Oriented Programming, Human Computer Interaction.",
-  },
-  {
-    dateRange: "July '18 - April '22",
-    logo: mithibaiLogo,
-    logoAlt: "Mithibai College Logo",
-    duration: "4 years",
-    title: "High School",
-    company: "Mithibai College",
-    description: "Concentrated in Maths, Chemistry and Physics providing foundation for further education.",
-  },
-];
+    {
+      dateRange: "Aug '22 - May '26",
+      logo: asuLogo,
+      logoAlt: 'Arizona State University Logo',
+      duration: '4 years',
+      title: 'B.S. Computer Science at',
+      company: 'Arizona State University',
+      description:
+        'Focus on Software Engineering and subjects like Operating Systems, Principles of Programming Languages, Data Structures & Algorithms, Object-Oriented Programming, Human Computer Interaction.',
+    },
+    {
+      dateRange: "July '18 - April '22",
+      logo: mithibaiLogo,
+      logoAlt: 'Mithibai College Logo',
+      duration: '4 years',
+      title: 'High School',
+      company: 'Mithibai College',
+      description:
+        'Concentrated in Maths, Chemistry and Physics providing foundation for further education.',
+    },
+  ];
 
   return (
     <div className="relative my-10 sm:my-20">
@@ -167,8 +169,8 @@ const Home: NextPage = () => {
               >
                 Tempe, AZ
               </Anchor>
-              , with 6 months of internship experience working with various software
-              applications, and teams from US and India. I'm all about{' '}
+              , with 6 months of internship experience working with various
+              software applications, and teams from US and India. I'm all about{' '}
               <Anchor
                 href="https://i.etsystatic.com/29656089/r/il/36a0ad/3827032526/il_fullxfull.3827032526_189y.jpg"
                 target={'_blank'}
@@ -194,10 +196,12 @@ const Home: NextPage = () => {
           </Button>
         </div>
         <div className="text-muted-foreground font-light mt-2 mb-4">
-          I have developed a strong foundation in <span className="">Software Engineering</span> 
-          through internships, and hackathons always prioritizing the user's needs. I combine 
-          technical precision with a strong focus on user needs, delivering solutions that 
-          seamlessly align business objectives with intuitive user experiences.
+          I have developed a strong foundation in{' '}
+          <span className="">Software Engineering</span>
+          through internships, and hackathons always prioritizing the user's
+          needs. I combine technical precision with a strong focus on user
+          needs, delivering solutions that seamlessly align business objectives
+          with intuitive user experiences.
         </div>
         <Separator className="my-4" />
 
@@ -226,7 +230,10 @@ const Home: NextPage = () => {
         <div
           onClick={() => {
             handleLinkClick('Recommendations Link');
-            window.open('https://www.linkedin.com/in/naimishmaniya1402/', '_blank');
+            window.open(
+              'https://www.linkedin.com/in/naimishmaniya1402/',
+              '_blank'
+            );
           }}
           className="text-muted-foreground underline hover:text-ring cursor-pointer"
         >
@@ -260,15 +267,18 @@ const Home: NextPage = () => {
           <div className="text-4xl sm:text-5xl font-medium">Education</div>
         </div>
         <div className="text-muted-foreground font-light mt-2 mb-4">
-          My academic work builds the same foundation I apply in projects and internships, strong CS fundamentals,
-          data handling, testing, and user-focused engineering.
+          My academic work builds the same foundation I apply in projects and
+          internships, strong CS fundamentals, data handling, testing, and
+          user-focused engineering.
         </div>
         <Separator className="my-4" />
         {educationList.map((edu, idx) => (
           <ExperienceItem
             key={`edu-${idx}`}
             {...edu}
-            onLinkClick={() => handleLinkClick(`Education Link: ${edu.company}`)}
+            onLinkClick={() =>
+              handleLinkClick(`Education Link: ${edu.company}`)
+            }
           />
         ))}
       </div>

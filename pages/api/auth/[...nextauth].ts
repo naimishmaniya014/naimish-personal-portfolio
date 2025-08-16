@@ -12,7 +12,11 @@ export const authOptions = {
       },
       // @ts-ignore
       async authorize(credentials, req) {
-        return { id: 1, name: 'Visitor', email: 'visitor@naimishmaniya014.com' };
+        return {
+          id: 1,
+          name: 'Visitor',
+          email: 'visitor@naimishmaniya014.com',
+        };
       },
     }),
   ],

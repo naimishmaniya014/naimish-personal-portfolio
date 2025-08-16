@@ -40,11 +40,7 @@
     "title": "Programming Language Compiler",
     "tagline": "C++ compiler for a custom polynomial language with CFG parsing, semantic analysis, and custom interpreter execution.",
     "year": 2025,
-    "badges": [
-      "C++",
-      "CFG",
-      "Lexical Analysis"
-    ],
+    "badges": ["C++", "CFG", "Lexical Analysis"],
     "github_url": "https://github.com/naimishmaniya014/",
     "demo_url": "",
     "stars": 0,

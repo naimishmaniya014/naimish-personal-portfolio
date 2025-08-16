@@ -19,6 +19,12 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/confidential.js", "pages/confidential.js"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "pages/confidential.js",
+    "pages/confidential.js"
+  ],
   "exclude": ["node_modules"]
 }

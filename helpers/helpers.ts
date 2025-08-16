@@ -84,23 +84,21 @@ export const badgeImage: {
   css: 'https://img.shields.io/badge/CSS-239120?style=flat-square&logo=css3&logoColor=white',
   'vscode extension':
     'https://img.shields.io/badge/VS_Code_Extension-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white',
-  linux: 'https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black',
+  linux:
+    'https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black',
   vite: 'https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=Vite&logoColor=white',
   html: 'https://img.shields.io/badge/HTML-007ACC?style=flat-square&logoColor=white',
-  'c++': 'https://img.shields.io/badge/C++-00599C?style=flat-square&logo=C%2B%2B&logoColor=white',
-  'lexical analysis': 'https://img.shields.io/badge/Lexical_Analysis-%234ea94b.svg?style=flat-square',
-  cfg:
-    'https://img.shields.io/badge/CFG-%233197C6.svg?style=flat-square',
-  c:
-    'https://img.shields.io/badge/C%20Programming-black?style=flat-square&logo=c',
+  'c++':
+    'https://img.shields.io/badge/C++-00599C?style=flat-square&logo=C%2B%2B&logoColor=white',
+  'lexical analysis':
+    'https://img.shields.io/badge/Lexical_Analysis-%234ea94b.svg?style=flat-square',
+  cfg: 'https://img.shields.io/badge/CFG-%233197C6.svg?style=flat-square',
+  c: 'https://img.shields.io/badge/C%20Programming-black?style=flat-square&logo=c',
   langchain:
     'https://img.shields.io/badge/LangChain-ffffff?logo=langchain&logoColor=green&style=flat-square',
-  rag:
-    'https://img.shields.io/badge/RAG-%23FF6F00.svg?style=flat-square&logo=RAG&logoColor=white',
-  'gpt-4':
-    'https://img.shields.io/badge/GPT4-%230B0D17.svg?style=flat-square',
-  javafx:
-    'https://img.shields.io/badge/JavaFX-%23039BE5.svg?style=flat-square',
+  rag: 'https://img.shields.io/badge/RAG-%23FF6F00.svg?style=flat-square&logo=RAG&logoColor=white',
+  'gpt-4': 'https://img.shields.io/badge/GPT4-%230B0D17.svg?style=flat-square',
+  javafx: 'https://img.shields.io/badge/JavaFX-%23039BE5.svg?style=flat-square',
   figma:
     'https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white',
   pandas:
@@ -109,13 +107,11 @@ export const badgeImage: {
     'https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=Plotly&logoColor=white',
   tableau:
     'https://img.shields.io/badge/Tableau-%234ea94b.svg?style=flat-square',
-  matlab:
-    'https://img.shields.io/badge/Matlab-%23white.svg?style=flat-square',
+  matlab: 'https://img.shields.io/badge/Matlab-%23white.svg?style=flat-square',
   'a/b testing':
     'https://img.shields.io/badge/A/B Testing-%23000000.svg?style=flat-square',
-  'ui/ux':
-    'https://img.shields.io/badge/UI/UX-%23white.svg?style=flat-square',
-  assembly: 
+  'ui/ux': 'https://img.shields.io/badge/UI/UX-%23white.svg?style=flat-square',
+  assembly:
     'https://img.shields.io/badge/Assembly-%230175C2.svg?style=flat-square&logo=assemblyscript',
 };
 

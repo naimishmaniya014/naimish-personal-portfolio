@@ -55,7 +55,6 @@ export default function MetaTags() {
       <meta property="og:image" content="/meta/meta-social-image.png" />
       <meta name="og:locale" content="en_IN" />
       <meta name="og:type" content="website" />
-
     </>
   );
 }
