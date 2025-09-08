@@ -18,6 +18,17 @@
     "category": "Web Project"
   },
   {
+    "title": "Ask-An-APL: AI-Powered Bot for Agile Support",
+    "tagline": "AI-powered Flask bot using OpenAI API and RAG to automate Agile team FAQs, reducing support overhead.",
+    "year": 2025,
+    "badges": ["Python", "Flask", "LangChain", "RAG", "GPT-4"],
+    "github_url": "https://t4.ftcdn.net/jpg/02/91/77/83/360_F_291778396_3Xzds9IcpqLsRMycGZhBFmev8F3R1YUv.jpg",
+    "demo_url": "https://t4.ftcdn.net/jpg/02/91/77/83/360_F_291778396_3Xzds9IcpqLsRMycGZhBFmev8F3R1YUv.jpg",
+    "stars": 0,
+    "priority": 6,
+    "category": "Web Project"
+  },
+  {
     "title": "Visualizing Fabric of Ohio City",
     "tagline": "A Data-visulization project to highlight volunteer's characteristics, social activities, and predominant business base.",
     "year": 2024,
@@ -81,25 +92,14 @@
     "category": "Web Project"
   },
   {
-    "title": "Ask-An-APL: AI-Powered Bot for Agile Support",
-    "tagline": "AI-powered Flask bot using GPT-4 and RAG to automate Agile team FAQs, reducing support overhead.",
-    "year": 2025,
-    "badges": ["Python", "Flask", "LangChain", "RAG", "GPT-4"],
-    "github_url": "https://t4.ftcdn.net/jpg/02/91/77/83/360_F_291778396_3Xzds9IcpqLsRMycGZhBFmev8F3R1YUv.jpg",
-    "demo_url": "https://t4.ftcdn.net/jpg/02/91/77/83/360_F_291778396_3Xzds9IcpqLsRMycGZhBFmev8F3R1YUv.jpg",
-    "stars": 0,
-    "priority": 6,
-    "category": "Web Project"
-  },
-  {
-    "title": "The Space Forest",
-    "tagline": "An interactive web app showcasing celestial bodies, astronomical events, and stargazing tips with a modern, responsive UI.",
+    "title": "Stars for All",
+    "tagline": "An accessible stargazing platform with audio descriptions, voice navigation, and inclusive design features, helping low-vision users explore celestial bodies with ease.",
     "year": 2025,
     "badges": ["React", "Vite", "Tailwind CSS", "JavaScript", "Vercel"],
     "github_url": "https://github.com/naimishmaniya014/",
     "demo_url": "",
     "stars": 0,
-    "priority": 4,
+    "priority": 6,
     "category": "Web Project"
   },
   {
