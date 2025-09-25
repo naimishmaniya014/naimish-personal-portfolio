@@ -125,7 +125,7 @@ const Home: NextPage = () => {
       action,
     });
   };
-  
+
   const educationList = [
     {
       dateRange: "Aug '22 - May '26",
