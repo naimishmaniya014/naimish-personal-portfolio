@@ -33,6 +33,7 @@ const EmailBox = dynamic(() => import('../components/EmailBox'), {
 });
 
 // Static image imports (more efficient for images)
+import qualcommLogo from '../images/qualcomm-logo.png';
 import uopxLogo from '../images/uopx-phoenixbird-red.png';
 import vkdiamLogo from '../images/vkdiamonds_logo.png';
 import asuLogo from '../images/asu_logo.png';
@@ -124,7 +125,7 @@ const Home: NextPage = () => {
       action,
     });
   };
-
+  
   const educationList = [
     {
       dateRange: "Aug '22 - May '26",
@@ -197,7 +198,7 @@ const Home: NextPage = () => {
         </div>
         <div className="text-muted-foreground font-light mt-2 mb-4">
           I have developed a strong foundation in{' '}
-          <span className="">Software Engineering</span>
+          <span className="">Software Engineering </span>
           through internships, and hackathons always prioritizing the user's
           needs. I combine technical precision with a strong focus on user
           needs, delivering solutions that seamlessly align business objectives
@@ -206,13 +207,25 @@ const Home: NextPage = () => {
         <Separator className="my-4" />
 
         <ExperienceItem
+          dateRange="Aug '25 - Present"
+          logo={qualcommLogo}
+          logoAlt="Qualcomm Logo"
+          duration="Internship (Capstone Project) - Present"
+          title="Software Engineer at"
+          company="Qualcomm"
+          description="I built full-stack AI insights platform integrating financial data APIs and LLM pipelines, leveraging Qualcomm AI100 to optimize inference and deliver scalable data solutions."
+          onLinkClick={() => handleLinkClick('Qualcomm Link')}
+        />
+
+        <ExperienceItem
           dateRange="May '25 - Aug '25"
           logo={uopxLogo}
           logoAlt="University of Phoenix Logo"
           duration="Internship - 3 months"
           title="Software Engineer at"
           company="University of Phoenix"
-          description="I developed robust, responsive components with a focus on accessibility, enhancing user experiences alongside Adobe AEM, Adobe ADA, and Adobe Target. Worked on enhancing site performance, improving accessibility compliance, and integrating SEO best practices to drive engagement and usability."
+          // description="I developed robust, responsive components with a focus on accessibility, enhancing user experiences alongside Adobe AEM, Adobe ADA, and Adobe Target. Worked on enhancing site performance, improving accessibility compliance, and integrating SEO best practices to drive engagement and usability."
+          description="I shipped ADA-compliant components within Adobe AEM using Next.js and JavaScript, while modernizing frontend systems with TypeScript for improved performance and responsiveness. Worked on scaling microservices with REST APIs to support a large learner base, and automated CI/CD workflows on AWS to ensure seamless, zero-downtime deployments."
           onLinkClick={() => handleLinkClick('UOPX Link')}
         />
 
