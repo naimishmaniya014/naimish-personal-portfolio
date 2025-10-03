@@ -73,7 +73,7 @@ const Resume: NextPage = () => {
           Updated with my latest experience and skills.
         </p>
         <Badge variant="secondary" className="mt-2">
-          Last Updated: 09/25/2025
+          Last Updated: 10/03/2025
         </Badge>
       </div>
 

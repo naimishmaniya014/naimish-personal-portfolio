@@ -145,7 +145,7 @@ const Home: NextPage = () => {
       title: 'High School',
       company: 'Mithibai College',
       description:
-        'Concentrated in Maths, Chemistry and Physics providing foundation for further education.',
+        'Concentrated in Maths, Physics, Chemistry and Electronics providing foundation for further education.',
     },
   ];
 
@@ -210,8 +210,8 @@ const Home: NextPage = () => {
           dateRange="Aug '25 - Present"
           logo={qualcommLogo}
           logoAlt="Qualcomm Logo"
-          duration="Internship (Capstone Project) - Present"
-          title="Software Engineer at"
+          duration="Capstone Project - Present"
+          title="Capstone Project with"
           company="Qualcomm"
           description="I built full-stack AI insights platform integrating financial data APIs and LLM pipelines, leveraging Qualcomm AI100 to optimize inference and deliver scalable data solutions."
           onLinkClick={() => handleLinkClick('Qualcomm Link')}
