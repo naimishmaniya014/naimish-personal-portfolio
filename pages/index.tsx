@@ -228,7 +228,7 @@ const Home: NextPage = () => {
           description="I shipped ADA-compliant components within Adobe AEM using Next.js and JavaScript, while modernizing frontend systems with TypeScript for improved performance and responsiveness. Worked on scaling microservices with REST APIs to support a large learner base, and automated CI/CD workflows on AWS to ensure seamless, zero-downtime deployments."
           onLinkClick={() => handleLinkClick('UOPX Link')}
         />
-
+        {/*
         <ExperienceItem
           dateRange="April '22 - July '22"
           logo={vkdiamLogo}
@@ -238,7 +238,8 @@ const Home: NextPage = () => {
           company="VK Diam"
           description="Built CMS pages for centralized diamond cataloging, automated quality assessment logging with Python, and developed a reporting system to track production metrics for better supply chain decisions."
           onLinkClick={() => handleLinkClick('VKDiam Link')}
-        />
+        /> 
+        */}
 
         <div
           onClick={() => {
